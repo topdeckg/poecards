@@ -1,0 +1,27 @@
+.station-stats {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.station-stats .stat-line {
+  display: flex;
+  justify-content: space-between;
+  color: #8b92a8;
+}
+
+.station-stats .stat-line strong { color: #e0e6ed; }
+.station-stats .value-green { color: #4ade80; }
+
+.station-stats .progress { margin-top: 0.5rem; }
+.station-stats .progress-label { color: #8b92a8; font-size: 0.85rem; margin-bottom: 0.25rem; }
+.station-stats .progress-bar {
+  height: 10px;
+  background: #3d4158;
+  border-radius: 6px;
+  overflow: hidden;
+}
+.station-stats .progress-bar .fill {
+  height: 100%;
+  background: linear-gradient(90deg, #ec4899, #a855f7);
+}

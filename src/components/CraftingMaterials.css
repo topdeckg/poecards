@@ -1,0 +1,5 @@
+.crafting-materials .panel-title { color: #e0e6ed; font-weight: 600; margin-bottom: 0.5rem; }
+.mat-list { list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 0.35rem; }
+.mat-list li { display: flex; justify-content: space-between; color: #e0e6ed; }
+.mat-list .name { color: #e0e6ed; }
+.mat-list .qty { color: #8b92a8; }

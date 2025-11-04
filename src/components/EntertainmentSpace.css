@@ -1,0 +1,16 @@
+.entertainment-space .panel-title { color: #e0e6ed; font-weight: 600; margin-bottom: 0.5rem; }
+.entertainment-space .slots-grid { display: grid; grid-template-columns: repeat(2, minmax(180px, 1fr)); gap: 0.75rem; }
+
+.ent-card { min-height: 150px; border-radius: 6px; padding: 0.75rem; border: 1px solid rgba(146, 112, 45, 0.45); background: rgba(146, 112, 45, 0.08); display: flex; flex-direction: column; justify-content: space-between; }
+.ent-card.locked { background: rgba(0,0,0,0.2); border-color: #3d4158; color: #8b92a8; display:flex; align-items:center; justify-content:center; }
+
+.ent-title { font-weight: 700; color: #e0e6ed; }
+.ent-empty { color: #8b92a8; }
+.ent-stats { color: #8b92a8; font-size: 0.9rem; }
+
+.ent-card.restaurant { background: rgba(146, 112, 45, 0.15); }
+.ent-card.bar { background: rgba(146, 112, 45, 0.12); }
+.ent-card.theater { background: rgba(146, 112, 45, 0.1); }
+.ent-card.gym { background: rgba(146, 112, 45, 0.1); }
+
+.entertainment-space .install-btn { align-self: start; padding: 0.5rem 0.75rem; border-radius: 4px; border: 1px solid rgba(146, 112, 45, 0.6); background: rgba(146, 112, 45, 0.25); color: #facc15; }

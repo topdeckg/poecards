@@ -1,0 +1,17 @@
+.inventory-panel .panel-title { color: #e0e6ed; font-weight: 600; }
+.inventory-panel .tabs { display: flex; gap: 0.5rem; margin: 0.5rem 0 0.75rem; }
+.inventory-panel .tab { background: transparent; color: #e0e6ed; border: none; border-bottom: 2px solid transparent; padding: 0.25rem 0.5rem; }
+.inventory-panel .tab.active { color: #a855f7; border-bottom-color: #a855f7; }
+
+.inv-list { display: grid; grid-template-columns: 1fr; gap: 0.5rem; }
+.empty { color: #8b92a8; }
+.inv-card { border: 1px solid #3d4158; border-radius: 6px; padding: 0.6rem; background: rgba(0,0,0,0.25); }
+.inv-title { color: #e0e6ed; font-weight: 600; }
+.rarity { color: #8b92a8; font-size: 0.85rem; margin-bottom: 0.25rem; }
+.mini-stats { display: flex; gap: 0.75rem; color: #8b92a8; font-size: 0.85rem; margin-bottom: 0.5rem; }
+.actions .btn { padding: 0.4rem 0.6rem; border-radius: 4px; border: 1px solid #60a5fa; background: rgba(96,165,250,0.15); color: #60a5fa; }
+
+.inv-card.rarity-common { box-shadow: 0 0 0 2px rgba(158,158,158,0.15) inset; }
+.inv-card.rarity-uncommon { box-shadow: 0 0 0 2px rgba(76,175,80,0.25) inset; }
+.inv-card.rarity-rare { box-shadow: 0 0 0 2px rgba(33,150,243,0.25) inset; }
+.inv-card.rarity-unique { box-shadow: 0 0 0 2px rgba(255,152,0,0.3) inset; }

@@ -1,0 +1,59 @@
+.factory-space .panel-title {
+  color: #e0e6ed;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.slots-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(180px, 1fr));
+  gap: 0.75rem;
+}
+
+.slot-card {
+  min-height: 160px;
+  background: rgba(99, 102, 241, 0.08);
+  border: 1px solid rgba(99, 102, 241, 0.35);
+  border-radius: 6px;
+  padding: 0.75rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.slot-card.empty {
+  background: rgba(99, 102, 241, 0.06);
+}
+
+.slot-card.locked {
+  background: rgba(0, 0, 0, 0.2);
+  border-color: #3d4158;
+  color: #8b92a8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.slot-title { font-weight: 600; color: #e0e6ed; }
+.slot-stats { color: #8b92a8; font-size: 0.85rem; display: grid; grid-template-columns: repeat(3, 1fr); gap: 0.25rem; }
+
+.install-btn {
+  align-self: start;
+  padding: 0.5rem 0.75rem;
+  border-radius: 4px;
+  background: rgba(99, 102, 241, 0.25);
+  border: 1px solid rgba(99, 102, 241, 0.6);
+  color: #c7d2fe;
+}
+
+.rarity-border {
+  box-shadow: 0 0 0 2px rgba(158, 158, 158, 0.2) inset;
+}
+
+.slot-card.selected {
+  box-shadow: 0 0 0 2px rgba(79, 195, 247, 0.6) inset;
+}
+
+/* Rarity tints */
+.rarity-common { box-shadow: 0 0 0 2px rgba(158, 158, 158, 0.2) inset; }
+.rarity-uncommon { box-shadow: 0 0 0 2px rgba(99, 102, 241, 0.45) inset; }
